@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello - get CGI Program</title>
+</head>
+
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <center><img src="https://eie.pucv.cl/wp-content/uploads/2022/02/logo_eie.png"
+                width="400" height="100" class="d-inline-block align-text-top" alt="Engineering log" title="Engineering log"> 
+        </a>
+    </div>
+</nav>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col align-self-start">
+                <br>
+            </div>
+            <div class="col align-self-center">
+                <center>
+                <br>
+                <br>
+                <br>
+                <div class="card" style="width: 18rem; height: 18rem;">
+                    <div class="card-body">
+                        <form action="/cgi-bin/hello_get2.py" method="post">
+                            <br>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">1</span>
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="FirstName" aria-describedby="addon-wrapping" name="first_name"> 
+                            </div>
+                            <br>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">2</span>
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="FirstName" aria-describedby="addon-wrapping" name="last_name"> 
+                            </div>
+                            <br>
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">2</span>
+                                <input type="text" class="form-control" placeholder="Edad" aria-label="age" aria-describedby="addon-wrapping" name="age"> 
+                            </div>
+                            <br>
+                            <input class="btn btn-primary" type="submit" value="Submit" />
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col align-self-end">
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <center>
+        <ul>
+          <a >Grupo 1</a>
+          <br>
+          <a >Benjamin Gonzalez</a>
+          <br>
+          <a >Rodrigo Muñoz</a>
+        </ul>
+        </center>
+      </footer>
+
+</body>
+
+</html>
